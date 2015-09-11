@@ -14,7 +14,16 @@
       <form id="findandreplace">
         <div class="form-group">
           <div class="row">
-            <!-- input stuff -->
+            <label for="string"></label>
+            <input type="text" name="string" id="string" placeholder="Search this string...">
+          </div>
+          <div class="row">
+            <label for="find"></label>
+            <input type="text" name="find" id="find" placeholder="...find this...">
+          </div>
+          <div class="row">
+            <label for="replace"></label>
+            <input type="text" name="replace" id="replace" placeholder="...and replace with this.">
           </div>
         </div>
         <button type="submit" class="btn">Go!</button>
@@ -23,7 +32,7 @@
       <br><br>
       <div class="row">
         <div class="result">
-          <!-- result span -->
+          <span class="result"></span>
         </div>
       </div>
     </center>
