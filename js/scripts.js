@@ -1,19 +1,16 @@
-var THING = function(year) {
+var replaceAll = function(string, find, replace) {
 
-// stuff
+  return string.replace(new RegExp(find, 'g'), replace);
 
-    return result;
-  };
 };
 
-$(document).ready(function(){
-  $('form#FORM').submit(function(event){
-    // var year = parseInt($('input#INPUT').val());
-
-  // stuff
-
-      $('.result').show();
-      event.preventDefault();
-    };
-  });
-});
+// $(document).ready(function(){
+//   $('form#FORM').submit(function(event){
+//     // var year = parseInt($('input#INPUT').val());
+//
+//     // stuff
+//
+//     $('.result').show();
+//     event.preventDefault();
+//   };
+// });
