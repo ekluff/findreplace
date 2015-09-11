@@ -1,7 +1,5 @@
 var replaceAll = function(string, find, replace) {
-
   return string.replace(new RegExp(find, 'g'), replace);
-
 };
 
 $(document).ready(function(){
@@ -10,9 +8,9 @@ $(document).ready(function(){
     var find = $('input#find').val();
     var replace = $('input#replace').val();
 
-    stuff
+    var result = replaceAll(string, find, replace);
 
-    $('.result').show();
+    $('#result').text(result);
     event.preventDefault();
-  };
+  });
 });
