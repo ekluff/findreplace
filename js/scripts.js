@@ -4,13 +4,15 @@ var replaceAll = function(string, find, replace) {
 
 };
 
-// $(document).ready(function(){
-//   $('form#FORM').submit(function(event){
-//     // var year = parseInt($('input#INPUT').val());
-//
-//     // stuff
-//
-//     $('.result').show();
-//     event.preventDefault();
-//   };
-// });
+$(document).ready(function(){
+  $('form#findandreplace').submit(function(event){
+    var string = $('input#string').val();
+    var find = $('input#find').val();
+    var replace = $('input#replace').val();
+
+    stuff
+
+    $('.result').show();
+    event.preventDefault();
+  };
+});
