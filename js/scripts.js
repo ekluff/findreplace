@@ -11,6 +11,7 @@ $(document).ready(function(){
     var result = replaceAll(string, find, replace);
 
     $('#result').text(result);
+
     event.preventDefault();
   });
 });
