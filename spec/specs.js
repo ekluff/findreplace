@@ -1,5 +1,5 @@
 describe("THING", function() {
-  it('does stuff', function() {
-    expect(THING(stuff)).to.eql(other stuff);
+  it('it takes user input of a string', function() {
+    expect("stuff").to.equal("stuff");
   });
 });
